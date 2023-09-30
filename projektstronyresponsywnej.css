@@ -284,6 +284,9 @@ img{
       text-align: center;
       margin: auto;
     }
+    body{
+      margin: auto;
+    }
   }
   
   @media (max-width: 500px) {
