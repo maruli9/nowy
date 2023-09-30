@@ -270,7 +270,8 @@ img{
   
     .main-nav ul {
       grid-template-columns: 1fr;
-      margin-left: 5px;
+      width: 100vw;
+      
     }
   
     .info {
