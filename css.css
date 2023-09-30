@@ -1,0 +1,163 @@
+html{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   min-height: 100vh;
+   /*background: #161623;*/
+   background-image: linear-gradient(45deg, #090968 40%,rgb(140, 0, 255) 40%,red 42%,white 10%, white 5%, rgb(6, 6, 31));
+   
+   background-size: cover;
+   color: #ffffff;
+   font-family: 'nunito';
+   background-attachment: fixed;
+ }
+ #flexiPojemnik{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    
+ 
+    
+    
+ }
+ img{
+  width: 250px;
+  
+  border-radius:  10px; 
+  border: 1px solid  rgb(194, 186, 186);
+  transition: 1s;
+ }
+ img:hover{
+  transform: scale(3.0);
+  
+}
+ 
+ 
+ #quicklist {
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 90vw;
+    /*display: inline-block;
+    align-items: center;
+    height: 3rem;
+    background: #ccc;
+    padding: 10px;*/
+    
+    
+    
+    
+    
+ }
+ #uli{
+  display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 60vw;
+    
+    text-decoration: none;
+
+    
+ }*/
+ 
+ article {
+    margin-bottom: 20px;
+    cursor: pointer;
+    color: #fff;
+    position: relative;
+    height: 100vh;
+    display: none;
+  }
+  #article1{
+    height: 100vh;
+    background: rgb(112, 85, 85);
+  }
+  
+  .content {
+    display: none;
+    height: 600px;
+    width: 800px;
+    background-color: #28303993;
+    margin: 200px auto;
+    text-align: center;
+    border: 1px solid rgb(255, 254, 254);
+    box-shadow: 0 0 18px black;
+    border-radius: 15px;
+    font-family: nunito;
+    color: #fff;
+    overflow: auto;
+    padding: 45px;
+    padding-top: 35px;
+    position: fixed;
+    top: -100px;
+    left: 1000px;
+    font-size: 25px;
+    text-align: justify;
+    line-height: 45px;
+
+    
+  }
+  .content::-webkit-scrollbar{
+   display: none;
+ }
+
+  #articleDetails{
+    width: 300px;
+    height: 300px;
+    background: #ddd;
+    color: black;
+    display: none;
+    
+    
+  }
+  .title{
+   color: rgb(189, 129, 207);
+   position: relative;
+   left: -1500px;
+   cursor: pointer;
+
+  }
+  
+
+  @media (max-width: 700px) {
+    html {
+      flex-direction: column;
+      background: #222627e8;
+    }
+  
+    img {
+      width: 100%;
+      
+      
+    }
+    
+  
+    .content {
+      width: 80%;
+      margin: 0 auto;
+      font-size: 20px;
+      padding: 20px;
+      line-height: 30px;
+      position: absolute;
+    top: 800px;
+    left: 40px;
+    }
+  
+    .title {
+      left: 10px;
+      margin: 0 auto;
+    }
+    .article {
+      margin-bottom: 5px;
+      font-size: 16px;
+      padding: 10px;
+      
+      
+    }
+    
+  }
