@@ -142,14 +142,14 @@ html{
     
   
     .content {
-      width: 90%;
+      width: 80%;
       margin: 0 auto;
       font-size: 20px;
       padding: 20px;
       line-height: 30px;
       position: absolute;
     top: 800px;
-    left: 10px;
+    left: 30px;
     }
   
     .title {
