@@ -270,6 +270,7 @@ img{
   
     .main-nav ul {
       grid-template-columns: 1fr;
+      align-items: center;
     }
   
     .info {
